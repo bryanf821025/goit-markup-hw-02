@@ -4,6 +4,8 @@
     --iris: #4D5AE5;
     --slate: #434455;
     --ocean: #404BBF;
+
+    
 }
 
 body{
@@ -13,13 +15,64 @@ body{
     font-size: 16px;
 
 }
+
+/*.page-header{
+    display: inline-flex;
+     
+    
+}*/
+
+.menu-item-page,.logo-part1
+{
+    float: left;
+    padding: 16px;
+  }
+
+.contacts-page{
+    float: right;
+    padding: 16px;
+}
+  
+ .wawd{
+    text-align:center;
+    padding:16px
+
+ }
+    
+ .wawd-images{
+    display: inline-block;
+    padding: 50px;
+    
+}
+
+.our-team-text{
+    text-align: center;
+}
+.team-profile{
+    float: left;
+    padding: 40px;
+}
+
+.one-list{
+    list-style: none;
+    display: flex;
+    margin: 2.5%;
+    
+}
+
+  
+
+
+
 .logo-part1{
     color: var(--iris);
     font-family: 'Raleway';
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 900;
     line-height: 1.5;
     text-decoration: none;
+    
+
 
 }
 
@@ -30,6 +83,7 @@ body{
     font-weight: 800;
     line-height: 1.5;
     text-decoration: none;
+    
 
 
 }
@@ -44,34 +98,133 @@ body{
 
 }
 
-.nav-menu-list{
-    list-style: none;
+.nav-menu-list :hover{
+    color: var(--ocean);
+    
+}
+.menu-item-page{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+
+    
 }
 
-.nav-menu-list .item{
+.contacts-page:hover{
+    color: var(--white);
+    
+
+}
+
+.contacts-page{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+
+}
+
+
+.nav-menu-list {
     color: var(--navyblue);
     font-size: 15px;
     font-weight: 500;
     letter-spacing:0.02em;
     line-height: 1.2;
+    list-style: none;
     text-decoration: none;
+    
 }
 
-.nav-menu-list .item :hover,
-.nav-menu-list .item :focus,
-.contacts-menu .item :hover,
-.contacts-menu .item :focus{
-    color: var(--ocean);
+
+.one{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 0.4px;
 }
 
-.contacts-menu .item{
+
+
+button:hover{
+    cursor: pointer;
+}
+
+button{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.64px;
+}
+
+.contacts-menu {
     color: var(--slate);
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing:0.02em;
-    line-height: 1.2;
+    line-height: 1;
     text-decoration: none;
+    list-style: none;
+    font-style: normal;
 
+}
+
+.task-list{
+    list-style: none;
+}
+
+.team-profile{
+    list-style: none;
+}
+
+.profile-name{
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+
+}
+
+.profile-post{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+
+}
+
+
+.foot-description{
+    color: var(--black);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1
+    
+}
+
+.port-page, .port-main, .port-list{
+    list-style: none;
+    text-decoration: none;
+}
+
+.port-list:hover:{
+    color: var(--white);
 }
 
 
