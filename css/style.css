@@ -30,6 +30,7 @@ body{
 
 .menu-item-page,.logo-part1
 {
+    
     float: left;
     padding: 16px;
   }
@@ -95,7 +96,7 @@ body{
 }
 
 .logo-part2white{
-    color: var(--white);
+    color: red;
     font-family: 'Raleway';
     font-size: 18px;
     font-weight: 800;
@@ -233,4 +234,6 @@ button{
     color: var(--white);
 }
 
-
+/*.footer{
+   color: var(--ocean);
+}/*
