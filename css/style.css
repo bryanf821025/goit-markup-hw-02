@@ -48,7 +48,7 @@ body{
     
  .wawd-images{
     display: inline-block;
-    padding: 50px;
+    padding: 40px;
     
 }
 
@@ -233,6 +233,12 @@ button{
 .port-list:hover:{
     color: var(--white);
 }
+
+/*.one-whole-container{
+    width: 1200px;
+    padding: 0px 15px;
+}*/
+
 
 /*.footer{
    color: var(--ocean);
