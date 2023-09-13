@@ -16,11 +16,17 @@ body{
 
 }
 
-/*.page-header{
-    display: inline-flex;
-     
-    
-}*/
+.text-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
+
+.effective-text{
+    color: var(--white);
+}
+
 
 .menu-item-page,.logo-part1
 {
